@@ -4,7 +4,7 @@ Some JavaScript console scripts to one-key tedious operations when fresh to YouT
 
 Hope this might help someone who has recently hopped from other streaming services to YouTube Music and is struggling with its lack of multiselect support.
 
-They include:
+The scripts include:
 * Like all music in current playlist
 * Unlike all music from a specific author
 * Filter by music length (ones equal to or longer than 10:00) and unlike
