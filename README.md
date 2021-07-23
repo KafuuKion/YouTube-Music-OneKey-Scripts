@@ -1,12 +1,13 @@
 # YouTube-Music-OneKey-Scripts
+
 Some JavaScript console scripts to one-key tedious operations when fresh to YouTube Music. 
+
+Hope that might help someone who has recently hopped from other streaming services to YouTube Music and is struggling with its lack of multiselect support.
 
 They include:
 * Like all music in current playlist
 * Unlike all music from a specific author
 * Filter by music length (ones equal to or longer than 10:00) and unlike
-
-I know what I write is stinky code, but here's something that might help someone who has just hopped from other streaming services to YouTube Music and is struggling with its lack of multiselect support.
 
 These scripts are only tested on Safari 14.1.1, and on a single playlist that contains about 1,500 entries.
 
@@ -49,3 +50,6 @@ This script unlikes all entries that is longer than 10 minutes (>= 10:00).
 It filters by the string length (length == 4 for 0:00 to 9:59) instead of the actual chronological length (because it meets my current demands).
 
 If you could make it filter by exact time, please do submit the modified code. Thank you for your kindness and sorry for my laziness.
+
+## Some notes 
+To be honest, I barely know JavaScript, and I know what I have wrote is stinky code. If you have suggestions to improve the code, or implementations that are just more elegant, please submit a pull request and I am more than willing and happy to merge the code. Thank you in advance for your contributions.
