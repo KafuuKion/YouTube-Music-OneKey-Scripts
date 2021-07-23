@@ -4,6 +4,7 @@ I know what I write is stinky code, but here's something that might help someone
 These scripts are only tested on Safari 14.1.1, and on a single playlist that contains about 1,500 entries.
 
 Before use, please replace the `click()` lines with `console.log("Something to indicate an operation")` to test the script. 
+
 **Please do test the script before use!**
 **It will really hurt if any unintended operations are done to your precious, irreplaceable playlist!**
 
@@ -19,7 +20,7 @@ Any modifications to these scripts are welcomed.
 ## Like-all-in-playlist.js
 This script just likes everything in the current playlist.
 It does a check if an entry is already liked to prevent unintended unliking.
-Unliking all may be done by changing the `if (items[i].getAttribute("aria-pressed") === "false") {` line into `if (items[i].getAttribute("aria-pressed") === "true") {`.
+Unliking all may be done by changing the `false` in `if (items[i].getAttribute("aria-pressed") === "false") {` line into `true`.
 
 ## Filter-by-author-and-unlike.js
 This script matches the author name, and unlikes the entry if it is liked.
