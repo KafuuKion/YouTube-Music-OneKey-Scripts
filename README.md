@@ -16,11 +16,11 @@ Any modifications to these scripts are welcomed.
 0. Paste the script into the browser console and press Enter/Return(⏎) to execute the code.
 0. Depending on your hardware, the browser or the page may lose response for a few seconds or even minutes.
 0. Stay patient before you can see the script takes effect.
+* Liking or unliking can be switched by flipping the `false` (or `true`) in `if (items[i].getAttribute("aria-pressed") === "false") {` line into the opposite one.
 
 ## Like-all-in-playlist.js
 This script just likes everything in the current playlist.
 It does a check if an entry is already liked to prevent unintended unliking.
-Unliking all may be done by changing the `false` in `if (items[i].getAttribute("aria-pressed") === "false") {` line into `true`.
 
 ## Filter-by-author-and-unlike.js
 This script matches the author name, and unlikes the entry if it is liked.
