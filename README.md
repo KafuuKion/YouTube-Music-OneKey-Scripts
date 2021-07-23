@@ -16,6 +16,9 @@ You may replace the `click()` lines with `console.log("An operation takes place 
 
 Any modifications to these scripts are welcomed.
 
+**If you don't know what a browser console is, please do search for it and make sure you have a basic understanding of it before proceeding.**
+**And proceed with caution.**
+
 ## Usage
 0. Open the playlist you want to modify.
 0. Scroll down all the way to the end so that all entries in the current playlist are loaded!
