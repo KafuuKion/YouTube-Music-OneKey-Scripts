@@ -9,7 +9,9 @@ The scripts include:
 * Unlike all music from a specific author (`Filter-by-author-and-unlike.js`)
 * Filter by music length (ones equal to or longer than 10:00) and unlike (`Unlike-longer-than-10min.js`)
 
-These scripts are only tested on Safari 14.1.1, and on a single playlist that contains about 1,500 entries.
+These scripts are only tested on 23 July, 2021, with Safari 14.1.1, and on a single playlist that contains about 1,500 entries.
+
+Some minor updates to the YouTube Music web app might break the scripts entirely, so...
 
 **Please do test the scripts before use!**
 
