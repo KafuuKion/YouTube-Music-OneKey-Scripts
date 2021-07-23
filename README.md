@@ -54,7 +54,7 @@ It filters by the string length (length == 4 for 0:00 to 9:59) instead of the ac
 If you could make it filter by exact time, please do submit the modified code. Thank you for your kindness and sorry for my laziness.
 
 ## Some notes 
-To be honest, I barely know JavaScript, and I know what I have wrote is stinky code. 
+To be honest, I barely know JavaScript, and I know what I have written is stinky code. 
 
 If you have suggestions to improve the code, or implementations that are just more elegant, please submit a pull request and I am more than willing and happy to merge the code. 
 
