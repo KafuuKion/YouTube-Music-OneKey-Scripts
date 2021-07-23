@@ -2,7 +2,7 @@
 
 Some JavaScript console scripts to one-key tedious operations when fresh to YouTube Music. 
 
-Hope that might help someone who has recently hopped from other streaming services to YouTube Music and is struggling with its lack of multiselect support.
+Hope this might help someone who has recently hopped from other streaming services to YouTube Music and is struggling with its lack of multiselect support.
 
 They include:
 * Like all music in current playlist
