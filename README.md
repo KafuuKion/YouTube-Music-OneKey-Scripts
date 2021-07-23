@@ -1,5 +1,6 @@
 # YouTube-Music-OneKey-Scripts
 Some JavaScript console scripts to one-key tedious operations when fresh to YouTube Music. 
+
 They include:
 * Like all music in current playlist
 * Unlike all music from a specific author
@@ -10,6 +11,7 @@ I know what I write is stinky code, but here's something that might help someone
 These scripts are only tested on Safari 14.1.1, and on a single playlist that contains about 1,500 entries.
 
 **Please do test the scripts before use!**
+
 **It will really hurt if any unintended operations are done to your precious, irreplaceable playlist!**
 
 You may replace the `click()` lines with `console.log("An operation takes place there.")` to test the script. 
@@ -17,6 +19,7 @@ You may replace the `click()` lines with `console.log("An operation takes place 
 Any modifications to these scripts are welcomed.
 
 **If you don't know what a browser console is, please do search for it and make sure you have a basic understanding of it before proceeding.**
+
 **And proceed with caution.**
 
 ## Usage
@@ -28,14 +31,21 @@ Any modifications to these scripts are welcomed.
 * Liking or unliking can be switched by flipping the `false` (or `true`) in `if (items[i].getAttribute("aria-pressed") === "false") {` line into the opposite one.
 
 ## Like-all-in-playlist.js
+
 This script just likes everything in the current playlist.
+
 It does a check if an entry is already liked to prevent unintended unliking.
 
 ## Filter-by-author-and-unlike.js
+
 This script matches the author name, and unlikes the entry if it is liked.
+
 It requires an exact match.
 
 ## Unlike-longer-than-10min.js
+
 This script unlikes all entries that is longer than 10 minutes (>= 10:00).
+
 It filters by the string length (length == 4 for 0:00 to 9:59) instead of the actual chronological length (because it meets my current demands).
+
 If you could make it filter by exact time, please do submit the modified code. Thank you for your kindness and sorry for my laziness.
