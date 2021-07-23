@@ -6,12 +6,13 @@ They include:
 * Filter by music length (ones equal to or longer than 10:00) and unlike
 
 I know what I write is stinky code, but here's something that might help someone who has just hopped from other streaming services to YouTube Music and is struggling with its lack of multiselect support.
+
 These scripts are only tested on Safari 14.1.1, and on a single playlist that contains about 1,500 entries.
 
-Before use, please replace the `click()` lines with `console.log("Something to indicate an operation")` to test the script. 
-
-**Please do test the script before use!**
+**Please do test the scripts before use!**
 **It will really hurt if any unintended operations are done to your precious, irreplaceable playlist!**
+
+You may replace the `click()` lines with `console.log("An operation takes place there.")` to test the script. 
 
 Any modifications to these scripts are welcomed.
 
