@@ -30,19 +30,19 @@ Any modifications to these scripts are welcomed.
 0. Stay patient before you can see the script takes effect.
 * Liking or unliking can be switched by flipping the `false` (or `true`) in `if (items[i].getAttribute("aria-pressed") === "false") {` line into the opposite one.
 
-### Like-all-in-playlist.js
+## Like-all-in-playlist.js
 
 This script just likes everything in the current playlist.
 
 It does a check if an entry is already liked to prevent unintended unliking.
 
-### Filter-by-author-and-unlike.js
+## Filter-by-author-and-unlike.js
 
 This script matches the author name, and unlikes the entry if it is liked.
 
 It requires an exact match.
 
-### Unlike-longer-than-10min.js
+## Unlike-longer-than-10min.js
 
 This script unlikes all entries that is longer than 10 minutes (>= 10:00).
 
