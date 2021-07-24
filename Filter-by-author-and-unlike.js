@@ -3,6 +3,7 @@
 // Depending on your hardware, the browser or the page may lose response for a few seconds or even minutes.
 // Stay patient before you can see the script takes effect.
 
+// author_name is case-sensitive, and needs to be an exact match.
 var author_name = "REPLACE THIS WITH YOUR AUTHOR, keep the quote marks";
 var items = document.querySelectorAll(".ytmusic-responsive-list-item-renderer");
 for (var i = 0; i < items.length; i++) {
